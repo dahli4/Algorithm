@@ -5,7 +5,7 @@ func solution(_ absolutes:[Int], _ signs:[Bool]) -> Int {
     
     for i in 0..<absolutes.count{
         if signs[i] == false{
-            sum += -absolutes[i] 
+            sum -= absolutes[i] 
         } else {
             sum += absolutes[i]
         }
